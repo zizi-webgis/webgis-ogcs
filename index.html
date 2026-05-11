@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>WebGIS OGC</title>
+
+  <!-- OpenLayers CSS -->
+
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/ol@latest/ol.css">
+
+  <!-- CSS SENDIRI -->
+
+  <link rel="stylesheet"
+    href="style.css">
+
+</head>
+
+<body>
+
+  <!-- PANEL TOGGLE -->
+
+  <div class="panel">
+
+    <h3>Layer Control</h3>
+
+    <label>
+
+      <input
+        type="checkbox"
+        id="toggleWMS"
+        checked>
+
+      WMS States
+
+    </label>
+
+    <br><br>
+
+    <label>
+
+      <input
+        type="checkbox"
+        id="toggleWFS"
+        checked>
+
+      WFS States
+
+    </label>
+
+  </div>
+
+
+  <!-- MAP -->
+
+  <div id="map"></div>
+
+
+  <!-- POPUP -->
+
+  <div id="popup"></div>
+
+
+  <!-- OPENLAYERS JS -->
+
+  <script src="https://cdn.jsdelivr.net/npm/ol@latest/dist/ol.js"></script>
+
+
+  <!-- APP JS -->
+
+  <script src="app.js"></script>
+
+</body>
+
+</html>
